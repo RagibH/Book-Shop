@@ -1,32 +1,86 @@
-Free Download Source Code "Online Book Shop System"
+# Book Shop Management System
 
-FIRST Download
+This is a PHP-based Online Book Shop Management System developed for academic and learning purposes. The project allows users to browse books, view categories, and manage products through an admin panel. It uses a MySQL database for storing book, category, and user information.
 
-1.XAMPP
+## 🔹 Technologies Used
 
-2."TEXT EDITOR" NOTEPAD++ OR SUBLIME TEXT 3 / ETC.
+- PHP
+- MySQL
+- HTML5
+- CSS3
+- JavaScript
+- Bootstrap
+- jQuery
+- Summernote Editor
 
-3"book_shop"
+## 🔹 Requirements
 
-4. Download the zip file/ download winrar
+- XAMPP / WAMP / MAMP
+- PHP 7.x or higher
+- MySQL
+- A modern web browser
+- A text editor (VS Code, Notepad++, Sublime Text, etc.)
 
-5. Extract the file and copy "book_shop" folder
+## 🔹 Setup Instructions (Localhost)
 
-6.Paste inside root directory/ where you install xammp local disk C: drive D: drive E: paste: (for xampp/htdocs, 
+1. Clone the repository:
+git clone https://github.com/RagibH/Book-Shop.git
 
-7. Open PHPMyAdmin (http://localhost/phpmyadmin)
+Or download the ZIP file and extract it.
 
-8. Create a database with name book_shop_db
+2. Move the project folder to your local server root:
 
-6. Import book_shop_db.sql file(given inside the zip package in SQL file folder)
+XAMPP (Windows):
+C:\xampp\htdocs\
 
-7.Run the script http:/book_shop
-**LOGIN DETAILS** 
+WAMP:
+C:\wamp64\www\
 
-Admin
-user: admin
-pass: admin123
+MAMP (macOS):
+/Applications/MAMP/htdocs/
 
+3. Start Apache and MySQL from XAMPP / WAMP / MAMP control panel.
 
-****** https:1sourcecodr.blogspot.com ******
-Subcribe my You tube Channel **** 1 Source code ****
+4. Open phpMyAdmin:
+http://localhost/phpmyadmin
+
+5. Create a database named:
+book_shop_db
+
+6. Import the database:
+- Select book_shop_db
+- Click Import
+- Choose book_shop_db.sql (provided in the project)
+- Click Go
+
+7. Run the project in your browser:
+http://localhost/Book-Shop/
+
+## 🔐 Admin Login Details
+
+Username: admin  
+Password: admin123
+
+## 🔹 Project Structure
+
+Book-Shop/
+├── plugins/
+├── uploads/
+├── sql/
+│   └── book_shop_db.sql
+├── products.php
+├── registration.php
+├── view_product.php
+├── view_categories.php
+├── _index.html
+├── README.md
+
+## ⚠️ Notes
+
+- This project is intended for local use only.
+- GitHub Pages does not support PHP or MySQL, so this project cannot be hosted live on GitHub.
+- The repository is maintained for academic submission and learning purposes.
+
+## ✅ Disclaimer
+
+This project is used for educational purposes only. Credits belong to the original source where applicable.
